@@ -10,7 +10,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: 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
-        TARGET_REPO: ChelFannie/chelFannie.github.io.source
+        TARGET_REPO: ChelFannie/chelFannie.github.io
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: dosc/.vuepress/dist/
