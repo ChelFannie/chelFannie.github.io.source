@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
     - name: vuepress-deploy
-      uses: ChelFannie/chelFannie.github.io@main
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: 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
         TARGET_REPO: ChelFannie/chelFannie.github.io.source
